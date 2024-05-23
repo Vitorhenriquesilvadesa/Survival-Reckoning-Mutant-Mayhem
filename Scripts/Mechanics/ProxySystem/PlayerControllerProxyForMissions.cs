@@ -8,7 +8,7 @@ namespace Mechanics.ProxySystem
         {
         }
         
-        
+        // Metodos do PlayerController a serem expostos ao mission controller.
         public void GetPlayerInventory()
         {
             

@@ -8,5 +8,6 @@ namespace Mechanics.ProxySystem
         {
         }
 
+        // Metodos do GameController a serem expostos para mission controller
     }
 }
