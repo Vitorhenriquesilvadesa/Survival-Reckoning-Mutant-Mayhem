@@ -4,11 +4,11 @@ namespace Mechanics.ProxySystem
 {
     public class Proxy<T> where T : IDataClass<T>
     {
-        protected T DataClass;
+        protected T DataClassInstance;
 
-        public Proxy(T dataClass)
+        public Proxy(T dataClassInstance)
         {
-            DataClass = dataClass;
+            DataClassInstance = dataClassInstance;
         }
     }
 }
